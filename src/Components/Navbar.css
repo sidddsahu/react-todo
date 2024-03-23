@@ -1,0 +1,23 @@
+.nav{
+    padding:18px 40px ;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: white;
+margin-bottom: 5vmax;
+   background-color: rgb(177, 177, 222);
+}
+
+.nav ul li{
+    font-weight: 500  ;
+}
+
+.logo{
+    font: 700 2rem roboto;
+
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}

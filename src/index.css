@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home{
+    align-items: center;
+}
+
+.login{
+
+    height: 70vh;
+    align-items: center;
+}
+
+.login-inner{
+    width: 35%;
+}
+
+input{
+    outline: none;
+    border: none    ;
+}
+
+@media  (max-width: 767px) {
+    .login-inner{
+        width: 100%;
+    }
+
+    .home-main{
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+/* .logout{
+    position: absolute;
+    left: 45%    ;
+    top: 10%;
+   transform: rotate(90deg);
+} */
+
+/* .list{ */
+
+
+/* } */
+
+.list-div::-webkit-scrollbar{
+display: none;
+}
+
+.list-div{
+    /* display: none; */
+    height: 32vh;
+    overflow-y: scroll;
+}
